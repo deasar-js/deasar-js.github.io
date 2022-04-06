@@ -6,7 +6,7 @@ export default function Contact() {
   // const [message, setMessage] = useState("");
 
   return (
-    <section id="contact" className="resume-section">
+    <section id="contact" className="contact-section">
       <h1 style={{ color: "white" }}>Contact</h1>
       <Container className="text-center mt-5 p-5">
         <h1

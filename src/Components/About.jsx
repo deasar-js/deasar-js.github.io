@@ -27,16 +27,9 @@ export default function About() {
             </Card.Text>
             <Row className="align-items-center">
               <Col>
-                <p className="tech"> - JavaScript (ES6+)</p>
-                <p className="tech"> - Node.js</p>
-                <p className="tech"> - Express.js</p>
-                <p className="tech"> - PostgreSQL</p>
-              </Col>
-              <Col>
                 <p className="tech"> - React-Native</p>
                 <p className="tech"> - Expo</p>
                 <p className="tech"> - Chakra UI</p>
-                <p className="tech"> - Python3</p>
               </Col>
               <Col className="text-center">
                 <Image src={selfie} rounded height="200" width="auto" />
