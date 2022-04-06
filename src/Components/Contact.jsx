@@ -44,7 +44,9 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="contact-section">
-        <h1 style={{ color: "white" }}>Contact</h1>
+        <h3 className="page-title" style={{ color: "white" }}>
+          // Say hello
+        </h3>
         <Container className="text-center mt-5 p-5">
           <h1
             style={{
@@ -94,7 +96,7 @@ export default function Contact() {
                         onChange={(event) => setMessage(event.target.value)}
                       />
                       <Button type="submit" className="hello-btn mt-3">
-                        Say Hello
+                        Send Message
                       </Button>
                     </>
                   ) : (
