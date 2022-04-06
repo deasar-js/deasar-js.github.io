@@ -4,7 +4,7 @@ import selfie from "../assets/ds.png";
 export default function About() {
   return (
     <section id="about" className="about-section">
-      <h1>About</h1>
+      <h1>About Me</h1>
       <Container>
         <Card className="border-0 shadow-sm p-3">
           <Card.Body>

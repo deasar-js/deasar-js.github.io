@@ -1,9 +1,9 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
-export default function Portfolio() {
+export default function Projects() {
   return (
-    <section id="portfolio" className="portfolio-section">
-      <h1 style={{ color: "white" }}>Portfolio</h1>
+    <section id="projects" className="projects-section">
+      <h1 style={{ color: "white" }}>Some Things I’ve Built</h1>
       <Container>
         <Row className="py-5 g-3">
           <Col>

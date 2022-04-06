@@ -141,7 +141,7 @@ p {
   background-color: white;
 }
 
-.portfolio-section {
+.projects-section {
   min-height: 100vh;
   background-color: darkslategray;
 }
@@ -153,4 +153,37 @@ p {
 
 .contact-section {
   min-height: 100vh;
+}
+
+.form-control {
+  max-width: 100% !important;
+}
+
+.contact-form {
+  max-width: 100% !important;
+}
+
+.contact {
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.alert-text {
+  font-family: "Roboto Mono", monospace;
+}
+
+.alert {
+  color: white;
+  background-color: #4a5568;
+  opacity: 0.8;
+}
+
+.message {
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  padding: 15px;
+  border-radius: 30px;
 }

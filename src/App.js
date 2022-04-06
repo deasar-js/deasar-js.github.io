@@ -5,7 +5,7 @@ import "./App.css";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Technologies from "./Components/Technologies";
-import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Components/Projects";
 import Contact from "./Components/Contact";
 import { HashLink } from "react-router-hash-link";
 import { Navbar, Nav, Container } from "react-bootstrap";
@@ -32,8 +32,8 @@ function App() {
                 01. About
               </HashLink>
 
-              <HashLink to="#portfolio" smooth className="nav-link">
-                02. Portfolio
+              <HashLink to="#projects" smooth className="nav-link">
+                02. Projects
               </HashLink>
             </Nav>
             {/* </Navbar.Collapse> */}
@@ -43,7 +43,6 @@ function App() {
         <About />
         <Technologies />
         <Portfolio />
-
         <Contact />
       </div>
     </BrowserRouter>
