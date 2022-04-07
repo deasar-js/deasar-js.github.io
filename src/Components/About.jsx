@@ -4,9 +4,11 @@ import selfie from "../assets/ds.png";
 export default function About() {
   return (
     <section id="about" className="about-section">
-      <h3 className="page-title">// About Me</h3>
-      <Container>
-        <Card className="border-0 shadow-sm p-3">
+      <h3 className="page-title" style={{ color: "white" }}>
+        // About me
+      </h3>
+      <Container className="center-card">
+        <Card className="project-card p-4 shadow border">
           <Card.Body>
             {/* <Card.Title>
               <h1>Dean Sargeant</h1>
@@ -32,7 +34,13 @@ export default function About() {
                 <p className="tech"> - Chakra UI</p>
               </Col>
               <Col className="text-center">
-                <Image src={selfie} rounded height="200" width="auto" />
+                <Image
+                  src={selfie}
+                  rounded
+                  height="200"
+                  width="auto"
+                  className="profile-photo"
+                />
               </Col>
             </Row>
           </Card.Body>

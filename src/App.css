@@ -66,7 +66,12 @@ p {
   width: 80%;
 }
 
+.project-link {
+  text-decoration: none;
+}
+
 .project-btn {
+  text-align: center;
   padding: 10px;
   background-color: #073642;
   border: 2px solid #81e6d9;
@@ -133,8 +138,11 @@ p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  position: absolute;
   color: aliceblue;
+}
+
+.center-card {
+  margin-top: 10%;
 }
 
 .tech {
@@ -164,12 +172,18 @@ p {
 
 .about-section {
   min-height: 100vh;
-  background-color: white;
+  background-color: #0a192f;
+  opacity: 0.9;
 }
 
 .projects-section {
   min-height: 100vh;
   background-color: #0a192f;
+  background-image: url("./assets/Designer.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.9;
 }
 
 .something-section {
