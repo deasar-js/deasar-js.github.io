@@ -127,7 +127,11 @@ export default function Contact() {
         </Container>
       </section>
       <footer className="text-center mb-5">
-        <a href={"https://github.com/deasar-js"}>
+        <a
+          rel="noreferrer noopener"
+          href={"https://github.com/deasar-js"}
+          target="_blank"
+        >
           <Image src={github} width="40" height="40" />
         </a>
       </footer>

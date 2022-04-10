@@ -20,8 +20,9 @@ export default function About() {
                 within the past 4 years or so that I began tinkering with
                 templates, content management systems and components to create
                 basic platforms that would emulate the most popular sites people
-                use. I graduated Northcoders' full stack JavaScript course early
-                April 2022 and currently I am learning new frameworks/libraries.
+                use. I graduated Northcoders' full stack JavaScript programme
+                early April 2022 and currently I am learning new
+                frameworks/libraries.
               </p>
               <p>
                 Here are a few technologies I’ve been working with recently:
