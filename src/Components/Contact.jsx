@@ -20,9 +20,9 @@ export default function Contact() {
 
   const form = useRef();
 
-  const SERVICE_ID = "service_cx0h8as";
-  const TEMPLATE_ID = "template_ggifi8o";
-  const USER_ID = "EmXkslv4cTNh3ikdH";
+  const SERVICE_ID = `${process.env.REACT_APP_SERVICE_ID}`;
+  const TEMPLATE_ID = `${process.env.REACT_APP_TEMPLATE_ID}`;
+  const USER_ID = `${process.env.REACT_APP_USER_ID}`;
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -44,7 +44,9 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="contact-section">
-        <h1 style={{ color: "white" }}>Contact</h1>
+        <h3 className="page-title" style={{ color: "white" }}>
+          // Say hello
+        </h3>
         <Container className="text-center mt-5 p-5">
           <h1
             style={{
@@ -94,7 +96,7 @@ export default function Contact() {
                         onChange={(event) => setMessage(event.target.value)}
                       />
                       <Button type="submit" className="hello-btn mt-3">
-                        Say Hello
+                        Send Message
                       </Button>
                     </>
                   ) : (
@@ -125,7 +127,11 @@ export default function Contact() {
         </Container>
       </section>
       <footer className="text-center mb-5">
-        <a href={"https://github.com/deasar-js"}>
+        <a
+          rel="noreferrer noopener"
+          href={"https://github.com/deasar-js"}
+          target="_blank"
+        >
           <Image src={github} width="40" height="40" />
         </a>
       </footer>

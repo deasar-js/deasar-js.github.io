@@ -21,6 +21,11 @@ p {
   font-family: "Roboto Mono", monospace;
 }
 
+.page-title {
+  padding: 5px;
+  font-family: "Roboto Mono", monospace;
+}
+
 .nav-link {
   color: white !important;
   font-family: "Major Mono Display", monospace;
@@ -47,9 +52,11 @@ p {
   text-align: right;
 }
 
-.portfolio-card {
-  background-color: darkslategray;
+.project-card {
+  background-color: #073642;
   color: white;
+  opacity: 0.9;
+  border: 1rem solid #81e6d9;
 }
 
 .technologies-card {
@@ -57,6 +64,30 @@ p {
   color: white;
   text-align: center;
   width: 80%;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-btn {
+  text-align: center;
+  padding: 10px;
+  background-color: #073642;
+  border: 2px solid #81e6d9;
+  font-family: "Roboto Mono", monospace;
+  color: #81e6d9 !important;
+  text-shadow: 1px 1px #38b2ac;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.project-btn:hover {
+  border: none;
+  background-color: #38b2ac;
+  font-family: "Roboto Mono", monospace;
+  color: white !important;
+  box-shadow: 0 0 5px #333;
 }
 
 .hello-btn {
@@ -107,8 +138,11 @@ p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  position: absolute;
   color: aliceblue;
+}
+
+.center-card {
+  margin-top: 10%;
 }
 
 .tech {
@@ -138,12 +172,18 @@ p {
 
 .about-section {
   min-height: 100vh;
-  background-color: white;
+  background-color: #0a192f;
+  opacity: 0.9;
 }
 
 .projects-section {
   min-height: 100vh;
-  background-color: darkslategray;
+  background-color: #0a192f;
+  background-image: url("./assets/Designer.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.9;
 }
 
 .something-section {

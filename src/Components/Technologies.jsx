@@ -18,7 +18,9 @@ import python from "../assets/python.svg";
 export default function Technologies() {
   return (
     <section id="technologies" className="technologies-section">
-      <h1 style={{ color: "white" }}>Technologies</h1>
+      <h3 className="page-title" style={{ color: "white" }}>
+        // Technologies
+      </h3>
       <Container>
         <Row className="py-5 g-3 text-center">
           <Col>
