@@ -20,9 +20,13 @@ export default function Contact() {
 
   const form = useRef();
 
-  const SERVICE_ID = `${process.env.REACT_APP_SERVICE_ID}`;
-  const TEMPLATE_ID = `${process.env.REACT_APP_TEMPLATE_ID}`;
-  const USER_ID = `${process.env.REACT_APP_USER_ID}`;
+  // const SERVICE_ID = `${process.env.REACT_APP_SERVICE_ID}`;
+  // const TEMPLATE_ID = `${process.env.REACT_APP_TEMPLATE_ID}`;
+  // const USER_ID = `${process.env.REACT_APP_USER_ID}`;
+
+  const SERVICE_ID = `service_cx0h8as`;
+  const TEMPLATE_ID = `template_ggifi8o`;
+  const USER_ID = `EmXkslv4cTNh3ikdH`;
 
   const handleSubmit = (event) => {
     event.preventDefault();
