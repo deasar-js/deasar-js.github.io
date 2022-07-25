@@ -30,9 +30,9 @@ export default function About() {
             </Card.Text>
             <Row className="align-items-center">
               <Col>
+                <p className="tech"> - MongoDB</p>
+                <p className="tech"> - Solidity</p>
                 <p className="tech"> - React-Native</p>
-                <p className="tech"> - Expo</p>
-                <p className="tech"> - Chakra UI</p>
               </Col>
               <Col className="text-center">
                 <Image

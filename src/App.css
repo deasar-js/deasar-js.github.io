@@ -39,6 +39,11 @@ p {
   background-color: #81e6d9;
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .sub-title {
   /* font-family: "Lexend Deca", sans-serif; */
   font-family: "Major Mono Display", monospace;
