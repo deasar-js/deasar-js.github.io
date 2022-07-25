@@ -133,7 +133,7 @@ export default function Contact() {
       <footer className="text-center mb-5">
         <a
           rel="noreferrer noopener"
-          href={"https://github.com/deasar-js"}
+          href={"https://github.com/deasartech"}
           target="_blank"
         >
           <Image src={github} width="40" height="40" />
