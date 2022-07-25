@@ -10,18 +10,58 @@ export default function Projects() {
         <Row className="py-5 g-3">
           <Col>
             <Card className="project-card p-4 shadow border">
-              <Card.Title>Sup (front-end)</Card.Title>
+              <Card.Title>Beatle</Card.Title>
+              <Card.Body>
+                <p>
+                  A lyric memorisation game inspired by Wordle. Front-end is a
+                  React JS interactive UI that aims to achieve a fun and
+                  engaging game design with animated loading components and
+                  arcade sound effects. It was important to be able to play
+                  snippets of songs using timestamps and React-player component
+                  is a lightweight and user friendly solution to media playback
+                  from various sources with the ability to control playback.
+                </p>
+                <Card.Footer>
+                  React JS | react-player | react-bootstrap | Node | Firebase9
+                </Card.Footer>
+                <a
+                  rel="noreferrer noopener"
+                  href={"https://beatle.pro"}
+                  target="_blank"
+                  className="project-link"
+                >
+                  <p className="project-btn mt-3">Website</p>
+                </a>
+                <a
+                  rel="noreferrer noopener"
+                  href={"https://github.com/deasar-js"}
+                  target="_blank"
+                  className="project-link disabled"
+                >
+                  <p className="project-btn">Source Code</p>
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="project-card p-4 shadow border">
+              <Card.Title>Sup news (FE and BE REST API)</Card.Title>
               <Card.Body>
                 <p>
                   This project is a React JS front-end web interface for
                   handling all client-side interactions with the web app,
                   sending requests to the back-end API and receiving information
-                  which is displayed for the user. Axios provides helpful tools
-                  for adding queries to endpoints and react-bootstrap was
-                  helpful for styling components in a responsive mobile-first
-                  design.
+                  which is displayed for the user. Node.js REST API with GET,
+                  POST, PATCH and DELETE requests. Using node-postgres to
+                  interact with the PostgreSQL database. The client can create
+                  and manage new articles, users, topics and comments. It is an
+                  example of a back-end service allowing access to application
+                  data programmatically which serves the information to the
+                  front-end architecture.
                 </p>
-                <Card.Footer>React JS | Axios | react-bootstrap</Card.Footer>
+                <Card.Footer>
+                  Node | Express JS | node-postgres | Jest | Supertest | Husky
+                </Card.Footer>
                 <a
                   rel="noreferrer noopener"
                   href={"https://stoic-austin-6977f9.netlify.app/"}
@@ -32,42 +72,7 @@ export default function Projects() {
                 </a>
                 <a
                   rel="noreferrer noopener"
-                  href={"https://github.com/deasar-js/fe-nc-news"}
-                  target="_blank"
-                  className="project-link"
-                >
-                  <p className="project-btn">Source Code</p>
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card className="project-card p-4 shadow border">
-              <Card.Title>REST API (back-end)</Card.Title>
-              <Card.Body>
-                <p>
-                  This project is a Node.js REST API with GET, POST, PATCH and
-                  DELETE requests. Using node-postgres to interact with the
-                  PostgreSQL database. The client can create and manage new
-                  articles, users, topics and comments. It is an example of a
-                  back-end service allowing access to application data
-                  programmatically which serves the information to the front-end
-                  architecture.
-                </p>
-                <Card.Footer>
-                  Node | Express JS | node-postgres | Jest | Supertest | Husky
-                </Card.Footer>
-                <a
-                  rel="noreferrer noopener"
-                  href={"https://deasar-news-app.herokuapp.com/api"}
-                  target="_blank"
-                  className="project-link"
-                >
-                  <p className="project-btn mt-3">Website</p>
-                </a>
-                <a
-                  rel="noreferrer noopener"
-                  href={"https://github.com/deasar-js/nc-news"}
+                  href={"https://github.com/deasartech/nc-news"}
                   target="_blank"
                   className="project-link"
                 >
@@ -103,7 +108,7 @@ export default function Projects() {
                 </a>
                 <a
                   rel="noreferrer noopener"
-                  href={"https://github.com/deasar-js/pet-app"}
+                  href={"https://github.com/deasartech/pet-app"}
                   target="_blank"
                   className="project-link"
                 >
