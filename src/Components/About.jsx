@@ -31,7 +31,7 @@ export default function About() {
             <Row className="align-items-center">
               <Col>
                 <p className="tech"> - MongoDB</p>
-                <p className="tech"> - Solidity</p>
+                <p className="tech"> - TypeScript</p>
                 <p className="tech"> - React-Native</p>
               </Col>
               <Col className="text-center">
