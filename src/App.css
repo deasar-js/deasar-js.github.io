@@ -154,6 +154,10 @@ a.disabled {
   font-size: 0.7em;
 }
 
+.profile-photo {
+  filter: saturate(150%);
+}
+
 #tsparticles {
   position: fixed;
   height: 100%;

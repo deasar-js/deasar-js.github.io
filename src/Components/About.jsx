@@ -38,7 +38,7 @@ export default function About() {
                 <Image
                   src={selfie}
                   rounded
-                  height="200"
+                  height="150"
                   width="auto"
                   className="profile-photo"
                 />
