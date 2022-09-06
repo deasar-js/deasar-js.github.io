@@ -1,4 +1,15 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  Figure,
+  OverlayTrigger,
+  Tooltip,
+} from "react-bootstrap";
+import beatleimg from "../assets/beatle-input.png";
+import tap from "../assets/tap-web.png";
+import sup from "../assets/sup-web01.png";
 
 export default function Projects() {
   return (
@@ -24,19 +35,36 @@ export default function Projects() {
                 <Card.Footer>
                   React JS | react-player | react-bootstrap | Node | Firebase9
                 </Card.Footer>
+                <OverlayTrigger
+                  placement="top"
+                  overlay={
+                    <Tooltip id="button-tooltip-2">
+                      {" "}
+                      <Figure>
+                        <Figure.Image
+                          height={300}
+                          width={500}
+                          alt="beatleimg"
+                          src={beatleimg}
+                        />
+                      </Figure>
+                    </Tooltip>
+                  }
+                >
+                  <a
+                    rel="noreferrer noopener"
+                    href={"https://beatle.pro"}
+                    target="_blank"
+                    className="project-link"
+                  >
+                    <p className="project-btn mt-3">Website</p>
+                  </a>
+                </OverlayTrigger>
                 <a
                   rel="noreferrer noopener"
-                  href={"https://beatle.pro"}
+                  href={"https://github.com/deasartech/beatle-app"}
                   target="_blank"
                   className="project-link"
-                >
-                  <p className="project-btn mt-3">Website</p>
-                </a>
-                <a
-                  rel="noreferrer noopener"
-                  href={"https://github.com/deasar-js"}
-                  target="_blank"
-                  className="project-link disabled"
                 >
                   <p className="project-btn">Source Code</p>
                 </a>
@@ -62,14 +90,31 @@ export default function Projects() {
                 <Card.Footer>
                   Node | Express JS | node-postgres | Jest | Supertest | Husky
                 </Card.Footer>
-                <a
-                  rel="noreferrer noopener"
-                  href={"https://stoic-austin-6977f9.netlify.app/"}
-                  target="_blank"
-                  className="project-link"
+                <OverlayTrigger
+                  placement="top"
+                  overlay={
+                    <Tooltip id="button-tooltip-2">
+                      {" "}
+                      <Figure>
+                        <Figure.Image
+                          height={300}
+                          width={500}
+                          alt="sup"
+                          src={sup}
+                        />
+                      </Figure>
+                    </Tooltip>
+                  }
                 >
-                  <p className="project-btn mt-3">Website</p>
-                </a>
+                  <a
+                    rel="noreferrer noopener"
+                    href={"https://stoic-austin-6977f9.netlify.app/"}
+                    target="_blank"
+                    className="project-link"
+                  >
+                    <p className="project-btn mt-3">Website</p>
+                  </a>
+                </OverlayTrigger>
                 <a
                   rel="noreferrer noopener"
                   href={"https://github.com/deasartech/nc-news"}
@@ -98,14 +143,31 @@ export default function Projects() {
                 <Card.Footer>
                   React JS | Firebase9 | react-bootstrap | Trello | postcodes.io
                 </Card.Footer>
-                <a
-                  rel="noreferrer noopener"
-                  href={"https://pet-app-beta.vercel.app/"}
-                  target="_blank"
-                  className="project-link"
+                <OverlayTrigger
+                  placement="top"
+                  overlay={
+                    <Tooltip id="button-tooltip-2">
+                      {" "}
+                      <Figure>
+                        <Figure.Image
+                          height={300}
+                          width={500}
+                          alt="takeapaws"
+                          src={tap}
+                        />
+                      </Figure>
+                    </Tooltip>
+                  }
                 >
-                  <p className="project-btn mt-3">Website</p>
-                </a>
+                  <a
+                    rel="noreferrer noopener"
+                    href={"https://pet-app-beta.vercel.app/"}
+                    target="_blank"
+                    className="project-link"
+                  >
+                    <p className="project-btn mt-3">Website</p>
+                  </a>
+                </OverlayTrigger>
                 <a
                   rel="noreferrer noopener"
                   href={"https://github.com/deasartech/pet-app"}

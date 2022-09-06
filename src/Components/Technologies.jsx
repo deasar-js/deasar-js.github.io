@@ -8,12 +8,12 @@ import {
 } from "react-bootstrap";
 import javascript from "../assets/javascript.svg";
 import node from "../assets/nodejs-icon.svg";
-import express from "../assets/express.png";
 import postgres from "../assets/postgresql.svg";
 import native from "../assets/react.svg";
-import expo from "../assets/expo-icon.svg";
 import bootstrap from "../assets/bootstrap.svg";
 import python from "../assets/python.svg";
+import typescript from "../assets/typescript.svg";
+import mongodb from "../assets/mongodb-icon-1.svg";
 
 export default function Technologies() {
   return (
@@ -53,14 +53,14 @@ export default function Technologies() {
           <Col>
             <OverlayTrigger
               placement="bottom"
-              overlay={<Tooltip id="button-tooltip-2">Express.js</Tooltip>}
+              overlay={<Tooltip id="button-tooltip-2">TypeScript</Tooltip>}
             >
               <Figure>
                 <Figure.Image
                   height={80}
                   width={80}
-                  alt="express"
-                  src={express}
+                  alt="typescript"
+                  src={typescript}
                 />
               </Figure>
             </OverlayTrigger>
@@ -98,10 +98,15 @@ export default function Technologies() {
           <Col>
             <OverlayTrigger
               placement="top"
-              overlay={<Tooltip id="button-tooltip-2">Expo</Tooltip>}
+              overlay={<Tooltip id="button-tooltip-2">MongoDB</Tooltip>}
             >
               <Figure>
-                <Figure.Image height={80} width={80} alt="expo" src={expo} />
+                <Figure.Image
+                  height={80}
+                  width={80}
+                  alt="mongodb"
+                  src={mongodb}
+                />
               </Figure>
             </OverlayTrigger>
           </Col>
