@@ -17,8 +17,8 @@ function App() {
         <Navbar expand="lg" variant="dark">
           <Container fluid>
             <Navbar.Brand href="#">
-              <h1 className="sub-title " style={{ color: "white" }}>
-                A
+              <h1 className="sub-title" style={{ color: "white" }}>
+                Dean Sargeant
               </h1>
             </Navbar.Brand>
             {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -29,11 +29,11 @@ function App() {
             > */}
             <Nav className="justify-content-end text-end  ">
               <HashLink to="#about" smooth className="nav-link">
-                01. About
+                About
               </HashLink>
 
               <HashLink to="#projects" smooth className="nav-link">
-                02. Projects
+                Projects
               </HashLink>
             </Nav>
             {/* </Navbar.Collapse> */}
