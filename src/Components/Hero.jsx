@@ -7,20 +7,21 @@ export default function Hero() {
     <section className="hero-section">
       <Particles options={particlesOptions} />
       <div className="center-all p-3">
-        <h2 style={{ color: "#38B2AC" }}>Hello, my name is</h2>
-        <h1
+        {/* <h2 style={{ color: "#38B2AC" }}>Hi I'm</h2> */}
+        {/* <h1
           style={{
             fontSize: "4rem",
             letterSpacing: "0.1rem",
             color: "#CBD5E0",
           }}
         >
-          Dean Sargeant
-        </h1>
+          Dean,
+        </h1> */}
         <h1 style={{ fontSize: "4rem", letterSpacing: "0.1rem" }}>
-          I'm a software developer
+          Software Engineer
         </h1>
-        <Container className="text-center">
+        <h2 style={{ color: "#38B2AC" }}>I like to build cool things</h2>
+        <Container className="text-center mt-3">
           <HashLink to="#contact" smooth>
             <Button className="hello-btn mt-3">Get in touch</Button>
           </HashLink>

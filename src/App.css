@@ -28,7 +28,7 @@ p {
 
 .nav-link {
   color: white !important;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .nav-link:hover {
@@ -45,8 +45,8 @@ a.disabled {
 }
 
 .sub-title {
-  /* font-family: "Lexend Deca", sans-serif; */
-  font-family: "Major Mono Display", monospace;
+  font-family: "Lexend Deca", sans-serif;
+  /* font-family: "Inter", monospace; */
   font-size: 2rem;
   color: "#e6f1ff" !important;
   font-weight: bold;

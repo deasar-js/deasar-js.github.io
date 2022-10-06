@@ -1,5 +1,5 @@
 import { Container, Card, Row, Col, Image } from "react-bootstrap";
-import selfie from "../assets/ds.png";
+import selfie from "../assets/ds10.jpg";
 
 export default function About() {
   return (
@@ -7,12 +7,10 @@ export default function About() {
       <h3 className="page-title" style={{ color: "white" }}>
         // About me
       </h3>
+      <div id="console"></div>
       <Container className="center-card">
         <Card className="project-card p-4 shadow border">
           <Card.Body>
-            {/* <Card.Title>
-              <h1>Dean Sargeant</h1>
-            </Card.Title> */}
             <Card.Text className="mt-2">
               <p>
                 I have developed a keen interest in software over the years and
@@ -35,13 +33,13 @@ export default function About() {
                 <p className="tech"> - React-Native</p>
               </Col>
               <Col className="text-center">
-                <Image
+                {/* <Image
                   src={selfie}
                   rounded
                   height="150"
                   width="auto"
                   className="profile-photo"
-                />
+                /> */}
               </Col>
             </Row>
           </Card.Body>
